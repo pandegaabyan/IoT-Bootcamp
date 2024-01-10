@@ -1,0 +1,49 @@
+{
+    "version": 1,
+    "author": "Pandega Abyan Zumarsyah",
+    "editor": "wokwi",
+    "parts": [
+        {
+            "type": "board-esp32-devkit-c-v4",
+            "id": "esp",
+            "top": 66.06,
+            "left": -3.1,
+            "rotate": 270,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-led",
+            "id": "led1",
+            "top": -13.2,
+            "left": -44.2,
+            "attrs": { "color": "blue" }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "r2",
+            "top": 70.6,
+            "left": -39.25,
+            "rotate": 270,
+            "attrs": { "value": "1000" }
+        },
+        {
+            "type": "wokwi-dht22",
+            "id": "dht1",
+            "top": 216,
+            "left": 1.5,
+            "rotate": 270,
+            "attrs": {}
+        }
+    ],
+    "connections": [
+        ["esp:TX", "$serialMonitor:RX", "", []],
+        ["esp:RX", "$serialMonitor:TX", "", []],
+        ["led1:C", "esp:GND.2", "black", ["v9.6", "h-18.8"]],
+        ["dht1:GND", "esp:GND.1", "black", ["h0"]],
+        ["dht1:SDA", "esp:13", "green", ["h0"]],
+        ["dht1:VCC", "esp:5V", "red", ["h0"]],
+        ["r2:1", "esp:22", "blue", ["h0"]],
+        ["led1:A", "r2:2", "blue", ["h9.6", "v18"]]
+    ],
+    "dependencies": {}
+}

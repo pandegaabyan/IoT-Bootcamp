@@ -1,0 +1,76 @@
+{
+    "version": 1,
+    "author": "Pandega Abyan Zumarsyah",
+    "editor": "wokwi",
+    "parts": [
+        {
+            "type": "wokwi-arduino-uno",
+            "id": "uno",
+            "top": -20.2,
+            "left": -119.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-lcd1602",
+            "id": "lcd1",
+            "top": -3.2,
+            "left": 236,
+            "attrs": { "pins": "i2c" }
+        },
+        {
+            "type": "wokwi-led",
+            "id": "led1",
+            "top": -147.6,
+            "left": -5.8,
+            "attrs": { "color": "blue" }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "r1",
+            "top": -63.8,
+            "left": -0.85,
+            "rotate": 270,
+            "attrs": { "value": "1000" }
+        },
+        {
+            "type": "wokwi-pushbutton",
+            "id": "btn1",
+            "top": -153.7,
+            "left": 70.7,
+            "rotate": 90,
+            "attrs": { "color": "blue" }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "r2",
+            "top": -63.8,
+            "left": 85.55,
+            "rotate": 270,
+            "attrs": { "value": "1000" }
+        },
+        {
+            "type": "wokwi-ntc-temperature-sensor",
+            "id": "ntc1",
+            "top": 252.3,
+            "left": -144.1,
+            "rotate": 270,
+            "attrs": {}
+        }
+    ],
+    "connections": [
+        ["uno:GND.2", "lcd1:GND", "black", ["v78.3", "h132.7", "v-220.8"]],
+        ["uno:5V", "lcd1:VCC", "red", ["v87.9", "h151.8", "v-220.9"]],
+        ["uno:GND.1", "led1:C", "black", ["v-84.8", "h13.5"]],
+        ["uno:10", "r1:1", "blue", ["v0"]],
+        ["led1:A", "r1:2", "blue", ["v9.6", "h9.6"]],
+        ["r2:1", "uno:2", "blue", ["h0"]],
+        ["r2:2", "btn1:1.r", "blue", ["h0"]],
+        ["uno:GND.1", "btn1:2.l", "black", ["v-161.6", "h100.5"]],
+        ["uno:5V", "ntc1:VCC", "red", ["v30.3", "h-117"]],
+        ["uno:GND.2", "ntc1:GND", "black", ["v39.9", "h-136.1"]],
+        ["uno:A4", "lcd1:SDA", "green", ["v59.1", "h75.4", "v-182.6"]],
+        ["uno:A5", "lcd1:SCL", "limegreen", ["v68.7", "h75.5", "v-182.7"]],
+        ["uno:A0", "ntc1:OUT", "orange", ["v0"]]
+    ],
+    "dependencies": {}
+}
