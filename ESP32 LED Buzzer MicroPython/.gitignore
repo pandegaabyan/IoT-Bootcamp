@@ -1,0 +1,2 @@
+# stubs obtained from: pip install -U  micropython-esp32-stubs --target ./typings --no-user
+typings
