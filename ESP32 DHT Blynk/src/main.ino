@@ -23,7 +23,6 @@ const int sensorReadingInterval = 1000;
 DHT dhtSensor(dhtPin, DHT22);
 
 unsigned long lastSensorReadingTime = 0;
-bool firebaseSignupOk = false;
 bool activeStatus = false;
 
 void showStatus(bool status) {
