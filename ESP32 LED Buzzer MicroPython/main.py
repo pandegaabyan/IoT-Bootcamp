@@ -5,7 +5,7 @@ ledPurplePin = Pin(22, Pin.OUT)
 ledGreenPin = Pin(21, Pin.OUT)
 ledBluePin = Pin(18, Pin.OUT)
 ledYellowPin = Pin(16, Pin.OUT)
-buzzerPin = Pin(15, Pin.OUT)
+buzzerPin = Pin(4, Pin.OUT)
 
 toneA = 440
 toneB = 494
