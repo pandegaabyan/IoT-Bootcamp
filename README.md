@@ -1,7 +1,9 @@
 # IoT Bootcamp
 
-Repo ini berisi berbagai project dan materi sebagai bahan ajar dalam IoT Bootcamp.
+Repository ini berisi berbagai project dan materi sebagai bahan ajar dalam IoT Bootcamp.
 Bootcamp tersebut diadakan oleh DTETI FT UGM pada Januari 2024 selama beberapa pertemuan.
+
+**Berilah star** jika repository ini terasa menarik atau bermanfaat ⭐
 
 ## Timeline
 
