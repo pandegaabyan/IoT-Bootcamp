@@ -3,6 +3,39 @@
 Repo ini berisi berbagai project dan materi sebagai bahan ajar dalam IoT Bootcamp.
 Bootcamp tersebut diadakan oleh DTETI FT UGM pada Januari 2024 selama beberapa pertemuan.
 
+## Timeline
+
+### Day 1
+
+-   Intro to IoT
+-   Intro to Arduino & ESP32
+-   Basic Programming using Arduino & MicroPython in Wokwi & PlatformIO
+
+**Material**: [IoT Bootcamp - Day 1.pdf](<Materials/IoT Bootcamp - Day 1.pdf>)
+
+**Project**: [Arduino LED Buzzer](#arduino-led-buzzer) & [ESP32 LED Buzzer MicroPython](#esp32-led-buzzer-micropython)
+
+### Day 2
+
+-   Concept of Analog Signal & Button
+-   Arduino with Temperature Sensor, Button, and LCD
+-   ESP32 with DHT Sensor and WiFi
+-   Blynk for Control and Monitoring
+
+**Material**: _to be updated_
+
+**Project**: [Arduino Temperature Button LCD](#arduino-temperature-button-lcd) & [ESP32 DHT Blynk](#esp32-dht-blynk)
+
+### Day 3
+
+-   Concept of MQTT and Implementation in ESP32
+-   Concept of Firebase and Implementation in ESP32
+-   Introduction to Node-RED
+
+**Material**: _to be updated_
+
+**Project**: [ESP32 DHT MQTT](#esp32-dht-mqtt) & [ESP32 DHT Firebase](#esp32-dht-firebase)
+
 ## Project
 
 Semua project menggunakan [Wokwi](https://wokwi.com) untuk desain rangkaian dan simulasi. Karenanya, setiap project memiliki file `wokwi.toml` dan `diagram.json`.
@@ -34,36 +67,3 @@ Program yang mirip sebelumnya, namun koneksi dilakukan melalui MQTT sementara di
 ### [ESP32 DHT Firebase](<ESP32 DHT Firebase>)
 
 Program yang mirip sebelumnya, namun koneksi dilakukan melalui Firebase
-
-## Timeline
-
-### Day 1
-
--   Intro to IoT
--   Intro to Arduino & ESP32
--   Basic Programming using Arduino & MicroPython in Wokwi & PlatformIO
-
-**Material**: _to be updated_
-
-**Project**: [Arduino LED Buzzer](<Arduino LED Buzzer>) & [ESP32 LED Buzzer MicroPython](<ESP32 LED Buzzer MicroPython>)
-
-### Day 2
-
--   Concept of Analog Signal & Button
--   Arduino with Temperature Sensor, Button, and LCD
--   ESP32 with DHT Sensor and WiFi
--   Blynk for Control and Monitoring
-
-**Material**: _to be updated_
-
-**Project**: [Arduino Temperature Button LCD](<Arduino Temperature Button LCD>) & [ESP32 DHT Blynk](<ESP32 DHT Blynk>)
-
-### Day 3
-
--   Concept of MQTT and Implementation in ESP32
--   Concept of Firebase and Implementation in ESP32
--   Introduction to Node-RED
-
-**Material**: _to be updated_
-
-**Project**: [ESP32 DHT MQTT](<ESP32 DHT MQTT>) & [ESP32 DHT Firebase](<ESP32 DHT Firebase>)
