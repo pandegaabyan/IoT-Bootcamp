@@ -141,8 +141,7 @@ npm install -g --unsafe-perm node-red
 
 #### Running
 
--   Jalankan perintah `node-red` pada terminal
--   Jika perintah itu tidak dikenali, coba lagi di "Node.js command prompt"
+-   Jalankan perintah `node-red` pada terminal, jika perintah itu tidak dikenali, coba lagi di "Node.js command prompt"
 -   Jika sudah berjalan, biarkan terminal dan jangan ditutup
 -   Buka tampilan Node-RED di [http://localhost:1880](http://localhost:1880)
 -   Lebih lanjut, lihat video tutorial (ada banyak di Youtube) atau baca [Dokumentasi Node-RED](https://nodered.org/docs/)
@@ -235,8 +234,8 @@ Blynk merupakan IoT Platform yang cukup beginner-friendly dengan fitur yang cuku
 
 #### Create Blynk Project
 
--   Register/Login seperti biasa, lalu buka [Blynk.Console](https://blynk.cloud/dashboard)
--   "Developer Zone" > "Templates" > "New Template", bagian "Connection Type" umumnya menggunakan WiFi
+-   Buka [Blynk.Console](https://blynk.cloud/dashboard), register/login seperti biasa
+-   Buat Template, "Developer Zone" > "Templates" > "New Template", bagian "Connection Type" biasanya menggunakan "WiFi"
 -   Buka Template yang sudah dibuat, lalu "Add first Device"
 -   Simpan Template ID, Template Name, dan AuthToken untuk dipakai di kode. Template ID dan Template Name berkaitan dengan Template sementara AuthToken berkaitan dengan Device
 -   Pada Template, atur "Datastreams" dan "Web Dashboard" sesuai kebutuhan project
