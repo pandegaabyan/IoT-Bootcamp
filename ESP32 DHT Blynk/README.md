@@ -51,4 +51,18 @@ Build bisa jadi gagal karena terlalu lama, jauh lebih cepat Build di PlatformIO 
 
 ## Blynk
 
-_to be updated_
+### Steps
+
+-   Buka [Blynk.Console](https://blynk.cloud/dashboard), register/login seperti biasa
+-   Buat Template, "Developer Zone" > "Templates" > "New Template", "Hardware" diisi "ESP32" sementara "Connection Type" diisi "WiFi"
+-   Buka Template yang sudah dibuat, lalu "Add first Device"
+-   Simpan Template ID, Template Name, dan AuthToken untuk dipakai di kode
+-   Sesuaikan "Datastreams" dan "Dashboard"
+
+### Used Datastreams
+
+![Blynk Datastream](<attachments/Blynk Datastream.png>)
+
+### Used Dashboard
+
+![Blynk Dashboard](<attachments/Blynk Dashboard.png>)

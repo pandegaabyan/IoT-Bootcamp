@@ -50,4 +50,20 @@ Build bisa jadi gagal karena terlalu lama, jauh lebih cepat Build di PlatformIO 
 
 ## Node-RED
 
-_to be updated_
+### Steps
+
+-   Jalankan perintah `node-red` pada terminal
+-   Jika perintah itu tidak dikenali, coba lagi di "Node.js command prompt"
+-   Jika sudah berjalan, biarkan terminal dan jangan ditutup
+-   Buka tampilan Node-RED di [http://localhost:1880](http://localhost:1880)
+-   Import Flow dari file [node-red.json](node-red.json), "Menu" (kanan atas) > "Import" > "Clipboard"
+-   Klik "Deploy"
+-   Buka tampilan dashboard di [http://localhost:1880/ui](http://localhost:1880/ui)
+
+### Used Flow
+
+![Node-RED Flow](<attachments/Node-RED Flow.png>)
+
+### Used Dashboard
+
+![Node-RED Dashboard](<attachments/Node-RED Dashboard.png>)
