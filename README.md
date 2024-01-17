@@ -24,7 +24,7 @@ Bootcamp tersebut diadakan oleh DTETI FT UGM pada Januari 2024 selama beberapa p
 -   ESP32 with DHT Sensor and WiFi
 -   Blynk for Control and Monitoring
 
-**Material**: _to be updated_
+**Material**: [IoT Bootcamp - Day 2.pdf](<Materials/IoT Bootcamp - Day 2.pdf>)
 
 **Project**: [Arduino Temperature Button LCD](#arduino-temperature-button-lcd) & [ESP32 DHT Blynk](#esp32-dht-blynk)
 
