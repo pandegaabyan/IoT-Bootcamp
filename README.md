@@ -34,7 +34,7 @@ Bootcamp tersebut diadakan oleh DTETI FT UGM pada Januari 2024 selama beberapa p
 -   Concept of Firebase and Implementation in ESP32
 -   Introduction to Node-RED
 
-**Material**: _to be updated_
+**Material**: [IoT Bootcamp - Day 3.pdf](<Materials/IoT Bootcamp - Day 3.pdf>)
 
 **Project**: [ESP32 DHT MQTT](#esp32-dht-mqtt) & [ESP32 DHT Firebase](#esp32-dht-firebase)
 
