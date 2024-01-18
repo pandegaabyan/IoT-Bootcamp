@@ -144,6 +144,7 @@ npm install -g --unsafe-perm node-red
 -   Jalankan perintah `node-red` pada terminal, jika perintah itu tidak dikenali, coba lagi di "Node.js command prompt"
 -   Jika sudah berjalan, biarkan terminal dan jangan ditutup
 -   Buka tampilan Node-RED di [http://localhost:1880](http://localhost:1880)
+-   Tambahkan library, "Menu" (kanan atas) > "Manage Palette" > "Install", misalnya "node-red-dashboard" dan "@gogovega/node-red-contrib-firebase-realtime-database"
 -   Lebih lanjut, lihat video tutorial (ada banyak di Youtube) atau baca [Dokumentasi Node-RED](https://nodered.org/docs/)
 
 ## MicroPython related
