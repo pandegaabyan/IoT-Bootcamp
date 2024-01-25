@@ -44,6 +44,8 @@ Semua project menggunakan [Wokwi](https://wokwi.com) untuk desain rangkaian dan 
 
 Semua project selain yang berbasis MicroPython menggunakan [PlatformIO](https://platformio.org). Karenanya, project-project tersebut memiliki file `platformio.ini`.
 
+Beberapa project memiliki diagram terkait bagian-bagian dan alur kerja sistem. Itu dapat dilihat di [IoT Bootcamp - DrawIO](https://drive.google.com/file/d/1d4qCNY82LM_rVFt8S4duNpMI8DvbOP35/view?usp=sharing)
+
 Penjelasan lebih detail untuk setiap project ada di file `README.md` masing-masing. Panduan untuk develop/run project di lokal ada di [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ### [Arduino LED Buzzer](<Arduino LED Buzzer>)
