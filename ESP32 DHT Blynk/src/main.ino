@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6pKKh7YQ0"
-#define BLYNK_TEMPLATE_NAME "ESP32 DHT"
-#define BLYNK_AUTH_TOKEN "qcrZbuVESgCmk5bG-amWuWTbAhdkCslQ"
+#define BLYNK_TEMPLATE_ID "put-your-template-id"
+#define BLYNK_TEMPLATE_NAME "put-your-template-name"
+#define BLYNK_AUTH_TOKEN "put-your-auth-token"
 #define BLYNK_PRINT Serial
 
 #include <WiFi.h>

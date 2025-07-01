@@ -62,7 +62,8 @@ void setup() {
 void loop() {
     unsigned long currentTime = millis();
 
-    if (checkButtonPressed()) {
+    bool isButtonPressed = checkButtonPressed();
+    if (isButtonPressed) {
         activeStatus = !activeStatus;
         if (activeStatus) {
             digitalWrite(ledPin, HIGH);

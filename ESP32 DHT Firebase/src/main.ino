@@ -9,8 +9,8 @@
 
 const char* wifiSsid = "Wokwi-GUEST";
 const char* wifiPassword = "";
-const char* firebaseProjectApiKey = "AIzaSyDSzfTrsef_ZdAEmckQqoJtamQHVB6r8DI";
-const char* firebaseDatabaseUrl = "https://esp32-dht-d0967-default-rtdb.asia-southeast1.firebasedatabase.app";
+const char* firebaseProjectApiKey = "put-your-api-key-here";
+const char* firebaseDatabaseUrl = "https://your-database-url.firebasedatabase.app";
 
 const char* statusPath = "/device/active_status";
 const char* controlPath = "/device/active_control";
