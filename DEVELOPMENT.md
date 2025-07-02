@@ -1,6 +1,7 @@
 # Development Preparation and Tips
 
 Ini merupakan panduan untuk develop/run project di lokal. Development utamanya dilakukan di VS Code sementara running simulasi dilakukan dengan Wokwi.
+Untuk memudahkan setup VS Code, bisa impor [IoT.code-profile](IoT.code-profile) sebagai profile VS Code.
 
 ## VS Code and Main Extensions
 
