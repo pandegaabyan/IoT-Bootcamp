@@ -14,10 +14,23 @@ LED dimainkan melalui method `on()` dan `off()` dari `Pin` sementara Buzzer dima
 
 ### VS Code + PlatformIO + Wokwi
 
-Saat ini belum berhasil running di VS Code, namun VS Code tetap bisa digunakan untuk development.
+-   Install [mpremote](https://docs.micropython.org/en/latest/reference/mpremote.html) untuk mengupload file ke ESP32:
 
-Tambahkan MicroPython Stubs untuk memperbaiki intellisense dan type checking:
+    ```bash
+    pip install mpremote --user
+    ```
 
-```bash
-pip install micropython-esp32-stubs --target typings --no-user
-```
+-   Start Wokwi simulator
+
+-   Ketika simulator sudah berjalan, buka terminal dan jalankan perintah berikut untuk mengupload file ke ESP32:
+
+    ```bash
+    python -m mpremote connect port:rfc2217://localhost:4000 run main.py
+    ```
+
+-   (Note) Jika ketika Wokwi simulator berjalan terdapat terminal baru yang terbuka, tutup terminal tersebut sebelum menjalankan perintah di atas.
+
+-   (Optional) Tambahkan MicroPython Stubs untuk memperbaiki intellisense dan type checking:
+    ```bash
+    pip install micropython-esp32-stubs --target typings --no-user
+    ```
